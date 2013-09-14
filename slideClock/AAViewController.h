@@ -9,5 +9,12 @@
 #import <UIKit/UIKit.h>
 
 @interface AAViewController : UIViewController
+@property (weak, nonatomic) IBOutlet UILabel *hourcount;
+@property (weak, nonatomic) IBOutlet UILabel *minutecount;
+@property (weak, nonatomic) IBOutlet UILabel *secondount;
+@property (nonatomic,retain) NSTimer* timer;
+@property (nonatomic, retain) NSDate *date;
+@property int prevmin,prevhour;
+@property (weak, nonatomic) IBOutlet UIView *container;
 
 @end
