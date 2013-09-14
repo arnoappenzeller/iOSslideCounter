@@ -16,8 +16,8 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "11BFC03B17E4ADC400FBD8E8"
                BuildableName = "slideClock.app"
-               BlueprintName = "slideClock"
-               ReferencedContainer = "container:slideClock.xcodeproj">
+               BlueprintName = "slideCounter"
+               ReferencedContainer = "container:slideCounter.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -34,8 +34,8 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "11BFC05C17E4ADC400FBD8E8"
                BuildableName = "slideClockTests.xctest"
-               BlueprintName = "slideClockTests"
-               ReferencedContainer = "container:slideClock.xcodeproj">
+               BlueprintName = "slideCounterTests"
+               ReferencedContainer = "container:slideCounter.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -44,8 +44,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "11BFC03B17E4ADC400FBD8E8"
             BuildableName = "slideClock.app"
-            BlueprintName = "slideClock"
-            ReferencedContainer = "container:slideClock.xcodeproj">
+            BlueprintName = "slideCounter"
+            ReferencedContainer = "container:slideCounter.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -63,8 +63,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "11BFC03B17E4ADC400FBD8E8"
             BuildableName = "slideClock.app"
-            BlueprintName = "slideClock"
-            ReferencedContainer = "container:slideClock.xcodeproj">
+            BlueprintName = "slideCounter"
+            ReferencedContainer = "container:slideCounter.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -81,8 +81,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "11BFC03B17E4ADC400FBD8E8"
             BuildableName = "slideClock.app"
-            BlueprintName = "slideClock"
-            ReferencedContainer = "container:slideClock.xcodeproj">
+            BlueprintName = "slideCounter"
+            ReferencedContainer = "container:slideCounter.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

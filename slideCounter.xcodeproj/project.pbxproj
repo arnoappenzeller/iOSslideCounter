@@ -34,23 +34,23 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		11BFC03C17E4ADC400FBD8E8 /* slideClock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = slideClock.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		11BFC03C17E4ADC400FBD8E8 /* slideCounter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = slideCounter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		11BFC03F17E4ADC400FBD8E8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		11BFC04117E4ADC400FBD8E8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		11BFC04317E4ADC400FBD8E8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		11BFC04717E4ADC400FBD8E8 /* slideClock-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "slideClock-Info.plist"; sourceTree = "<group>"; };
+		11BFC04717E4ADC400FBD8E8 /* slideCounter-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "slideCounter-Info.plist"; sourceTree = "<group>"; };
 		11BFC04917E4ADC400FBD8E8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		11BFC04B17E4ADC400FBD8E8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		11BFC04D17E4ADC400FBD8E8 /* slideClock-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "slideClock-Prefix.pch"; sourceTree = "<group>"; };
+		11BFC04D17E4ADC400FBD8E8 /* slideCounter-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "slideCounter-Prefix.pch"; sourceTree = "<group>"; };
 		11BFC04E17E4ADC400FBD8E8 /* AAAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AAAppDelegate.h; sourceTree = "<group>"; };
 		11BFC04F17E4ADC400FBD8E8 /* AAAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AAAppDelegate.m; sourceTree = "<group>"; };
 		11BFC05217E4ADC400FBD8E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		11BFC05417E4ADC400FBD8E8 /* AAViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AAViewController.h; sourceTree = "<group>"; };
 		11BFC05517E4ADC400FBD8E8 /* AAViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AAViewController.m; sourceTree = "<group>"; };
 		11BFC05717E4ADC400FBD8E8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		11BFC05D17E4ADC400FBD8E8 /* slideClockTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = slideClockTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		11BFC05D17E4ADC400FBD8E8 /* slideCounterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = slideCounterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		11BFC05E17E4ADC400FBD8E8 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		11BFC06617E4ADC400FBD8E8 /* slideClockTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "slideClockTests-Info.plist"; sourceTree = "<group>"; };
+		11BFC06617E4ADC400FBD8E8 /* slideCounterTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "slideCounterTests-Info.plist"; sourceTree = "<group>"; };
 		11BFC06817E4ADC400FBD8E8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		11BFC06A17E4ADC400FBD8E8 /* slideClockTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = slideClockTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -92,8 +92,8 @@
 		11BFC03D17E4ADC400FBD8E8 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				11BFC03C17E4ADC400FBD8E8 /* slideClock.app */,
-				11BFC05D17E4ADC400FBD8E8 /* slideClockTests.xctest */,
+				11BFC03C17E4ADC400FBD8E8 /* slideCounter.app */,
+				11BFC05D17E4ADC400FBD8E8 /* slideCounterTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -126,10 +126,10 @@
 		11BFC04617E4ADC400FBD8E8 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				11BFC04717E4ADC400FBD8E8 /* slideClock-Info.plist */,
+				11BFC04717E4ADC400FBD8E8 /* slideCounter-Info.plist */,
 				11BFC04817E4ADC400FBD8E8 /* InfoPlist.strings */,
 				11BFC04B17E4ADC400FBD8E8 /* main.m */,
-				11BFC04D17E4ADC400FBD8E8 /* slideClock-Prefix.pch */,
+				11BFC04D17E4ADC400FBD8E8 /* slideCounter-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -146,7 +146,7 @@
 		11BFC06517E4ADC400FBD8E8 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				11BFC06617E4ADC400FBD8E8 /* slideClockTests-Info.plist */,
+				11BFC06617E4ADC400FBD8E8 /* slideCounterTests-Info.plist */,
 				11BFC06717E4ADC400FBD8E8 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
@@ -155,9 +155,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		11BFC03B17E4ADC400FBD8E8 /* slideClock */ = {
+		11BFC03B17E4ADC400FBD8E8 /* slideCounter */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 11BFC06E17E4ADC400FBD8E8 /* Build configuration list for PBXNativeTarget "slideClock" */;
+			buildConfigurationList = 11BFC06E17E4ADC400FBD8E8 /* Build configuration list for PBXNativeTarget "slideCounter" */;
 			buildPhases = (
 				11BFC03817E4ADC400FBD8E8 /* Sources */,
 				11BFC03917E4ADC400FBD8E8 /* Frameworks */,
@@ -167,14 +167,14 @@
 			);
 			dependencies = (
 			);
-			name = slideClock;
+			name = slideCounter;
 			productName = slideClock;
-			productReference = 11BFC03C17E4ADC400FBD8E8 /* slideClock.app */;
+			productReference = 11BFC03C17E4ADC400FBD8E8 /* slideCounter.app */;
 			productType = "com.apple.product-type.application";
 		};
-		11BFC05C17E4ADC400FBD8E8 /* slideClockTests */ = {
+		11BFC05C17E4ADC400FBD8E8 /* slideCounterTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 11BFC07117E4ADC400FBD8E8 /* Build configuration list for PBXNativeTarget "slideClockTests" */;
+			buildConfigurationList = 11BFC07117E4ADC400FBD8E8 /* Build configuration list for PBXNativeTarget "slideCounterTests" */;
 			buildPhases = (
 				11BFC05917E4ADC400FBD8E8 /* Sources */,
 				11BFC05A17E4ADC400FBD8E8 /* Frameworks */,
@@ -185,9 +185,9 @@
 			dependencies = (
 				11BFC06317E4ADC400FBD8E8 /* PBXTargetDependency */,
 			);
-			name = slideClockTests;
+			name = slideCounterTests;
 			productName = slideClockTests;
-			productReference = 11BFC05D17E4ADC400FBD8E8 /* slideClockTests.xctest */;
+			productReference = 11BFC05D17E4ADC400FBD8E8 /* slideCounterTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -205,7 +205,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 11BFC03717E4ADC400FBD8E8 /* Build configuration list for PBXProject "slideClock" */;
+			buildConfigurationList = 11BFC03717E4ADC400FBD8E8 /* Build configuration list for PBXProject "slideCounter" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -218,8 +218,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				11BFC03B17E4ADC400FBD8E8 /* slideClock */,
-				11BFC05C17E4ADC400FBD8E8 /* slideClockTests */,
+				11BFC03B17E4ADC400FBD8E8 /* slideCounter */,
+				11BFC05C17E4ADC400FBD8E8 /* slideCounterTests */,
 			);
 		};
 /* End PBXProject section */
@@ -269,7 +269,7 @@
 /* Begin PBXTargetDependency section */
 		11BFC06317E4ADC400FBD8E8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 11BFC03B17E4ADC400FBD8E8 /* slideClock */;
+			target = 11BFC03B17E4ADC400FBD8E8 /* slideCounter */;
 			targetProxy = 11BFC06217E4ADC400FBD8E8 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -380,9 +380,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "slideClock/slideClock-Prefix.pch";
-				INFOPLIST_FILE = "slideClock/slideClock-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "slideClock/slideCounter-Prefix.pch";
+				INFOPLIST_FILE = "slideClock/slideCounter-Info.plist";
+				PRODUCT_NAME = slideCounter;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -393,9 +393,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "slideClock/slideClock-Prefix.pch";
-				INFOPLIST_FILE = "slideClock/slideClock-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "slideClock/slideCounter-Prefix.pch";
+				INFOPLIST_FILE = "slideClock/slideCounter-Info.plist";
+				PRODUCT_NAME = slideCounter;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -416,8 +416,8 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "slideClockTests/slideClockTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "slideClockTests/slideCounterTests-Info.plist";
+				PRODUCT_NAME = slideCounterTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -435,8 +435,8 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "slideClock/slideClock-Prefix.pch";
-				INFOPLIST_FILE = "slideClockTests/slideClockTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "slideClockTests/slideCounterTests-Info.plist";
+				PRODUCT_NAME = slideCounterTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -445,7 +445,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		11BFC03717E4ADC400FBD8E8 /* Build configuration list for PBXProject "slideClock" */ = {
+		11BFC03717E4ADC400FBD8E8 /* Build configuration list for PBXProject "slideCounter" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				11BFC06C17E4ADC400FBD8E8 /* Debug */,
@@ -454,21 +454,23 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		11BFC06E17E4ADC400FBD8E8 /* Build configuration list for PBXNativeTarget "slideClock" */ = {
+		11BFC06E17E4ADC400FBD8E8 /* Build configuration list for PBXNativeTarget "slideCounter" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				11BFC06F17E4ADC400FBD8E8 /* Debug */,
 				11BFC07017E4ADC400FBD8E8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		11BFC07117E4ADC400FBD8E8 /* Build configuration list for PBXNativeTarget "slideClockTests" */ = {
+		11BFC07117E4ADC400FBD8E8 /* Build configuration list for PBXNativeTarget "slideCounterTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				11BFC07217E4ADC400FBD8E8 /* Debug */,
 				11BFC07317E4ADC400FBD8E8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
